@@ -1,0 +1,20 @@
+Hello Adam,
+
+Thank you for contacting support, my name is Daniel and I will be assisting you with your inquiries. I understand that
+you want to know more how CircleCI works and why it does not support .NET technologies.
+
+First of all CircleCI is a tool for continous intregation with automated test support. It has been created to make development tests 
+and to deliver processes easier. It gives you the ability to use your Github account and projects so it will run automatically all 
+your configured tests. If your tests pass you can deploy your code to development, staging, production and more. 
+The general idea is to test all changes that you are making to your code base. 
+
+At the moment CircleCI does not support officially .NET technology, at the moment there are workarounds such as using the 
+tool Mono or Docker, also you can always submit a Feature Request in our discussion forum in order to this be considered 
+in future versions of CircleCI, you can submit it through this URL: https://discuss.circleci.com/c/feature-requests
+
+I hope this information has been useful to you, in the case that you need more assistance or have any other inquire 
+that you need assistance with feel free to reply to this message and gladly I will keep working with you.
+
+Best regards,
+
+Daniel
