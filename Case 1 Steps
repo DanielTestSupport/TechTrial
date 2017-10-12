@@ -1,0 +1,33 @@
+Case 1: PRODSUP-001. 
+
+Steps to complete the case.
+
+1. Go to Github and access the case from URL:  https://github.com/mtedone/podam
+2. Go to Circleci and access the dashboard from URL: https://circleci.com/dashboard
+3. Create a copy of the project by forking it from Github 
+4. Go back to Circleci and give CircleCI permission to access GitHub on your behalf
+5. On the left side of the menu look for Projects a list of the Github projects will appear.
+6. On the rigth side of the screen click on Configure project.
+7. Select the platform you want, on this case it was selected the version 2.0
+8. Follow the following instructions given by Circleci:
+	a. Create a folder named .circleci and add a fileconfig.yml (so that the filepath be 	in .circleci/config.yml).
+	b. Populate the config.yml with the contents of the sample .yml 		
+	c. Update the sample .yml to reflect your project's configuration.
+	d. Push this change up to GitHub.
+	e. Start building! This will launch your project on CircleCI and make our webhooks 	listen for updates to your work.
+9. After this step the Circleci will configure the project to be displayed on the plattform.
+10. In this case the build was not succesfull because of some errors on the configuration of version 2.0 of Circleci.
+11. Reviewed information about the errors and then corrected them with the correct configuration file of .yml
+12. Later the build result on an error related to the dependencies.
+13. To solve the problem the file pom.xml was edited and the following lines were added:
+	<repositories>
+		<repository>
+			<id>egit</id>
+			<name>Eclipse egit</name>
+			<url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+    		</repository>
+	</repositories>
+
+You can find them at line 434-439
+14. Then the build was successful.
+15. The tabs will show the tests that you run when you configure the yml file.
