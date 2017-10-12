@@ -1,0 +1,20 @@
+Hello Jolene,
+
+Than you for contacting support, my name is Daniel and I will be helping you with your situation. I understand that you want to know 
+why your project is not succesfully building over Circleci. 
+
+Reviewing the code everything seems to be running wonderful and smooth, however there is a portion of code located at
+main/java/org/apache/commons/csv/CSVFormat.java on which creates an iteration very long causing a great delay on the build.
+
+At the moment in orde to resolve this situation we made a copy of the project and the code was changed to a short iteration
+(you can view the changes over the line 805 of the file CSVFormat.java) after this the build was completed succesfully;
+currently Circleci just allows a certain amount of time to complete the build for security reasons in order to avoid complex problems.
+
+Since no more information is needed at the moment, this ticket will be closing soon, in case you need further assistance, 
+don’t hesitate to reply this message within the next 30 days to reopen the ticket, or you can use any of our contact channels.
+
+Wish you have a great day.
+
+Sincerely, 
+
+Daniel 
