@@ -1,0 +1,21 @@
+Hello Harry,
+
+I understand that you requiere assistance on your project and want to know why the Test Results tab is empty.
+
+To view the tab please follow these instructions:
+
+1. Sing in to your Circleci Dashboard from this URL: https://circleci.com/dashboard
+2. Look for your project.
+3. On the menu you will see at first the Test Summary, so please click on the Artifacts tab to see your generated test.
+4. In the case that you do not see anything you see it empty you need to configure tests by following the instructions given on this 
+Help Center article: https://circleci.com/docs/1.0/test-metadata/#java-junit-results-with-maven-surefire-plugin.
+
+I hope you find this information useful. The case remains open awaiting for your response, in the case that 
+you have more doubts or questions do not hesitate to contact me back and I will be more than glad to help you 
+in everything that is in my hands.
+
+I wish you have a wonderful day and a great rest of your week. 
+
+Best regards,
+
+Daniel
