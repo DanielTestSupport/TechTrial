@@ -15,5 +15,7 @@
 ### Case 3
 1. [Mail to Case 3](https://github.com/DanielTestSupport/TechTrial/blob/master/Case%203%20Mail)
 
+> For further details and questions please email me back to darguir@gmail.com
+
 
 
